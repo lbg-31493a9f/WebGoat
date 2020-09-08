@@ -47,7 +47,7 @@ jobs:
     #    uses a compiled language
 
     - run: |
-        mvn clean install
+        mvn clean compile install
     #   make bootstrap
     #   make release
 
